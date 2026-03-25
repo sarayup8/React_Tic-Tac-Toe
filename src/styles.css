@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+  background: lightpink;
+  font-style: italic;
+  font-family: san-serif;
 }
 
 body {
@@ -57,15 +60,15 @@ body {
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: lightyellow;
+  border: 2px solid #999;
   float: left;
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
   height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
+  margin-right: -2px;
+  margin-top: -2px;
   padding: 0;
   text-align: center;
   width: 34px;
@@ -80,6 +83,7 @@ body {
 .status {
   margin-bottom: 10px;
 }
+
 .game {
   display: flex;
   flex-direction: row;
@@ -87,4 +91,11 @@ body {
 
 .game-info {
   margin-left: 20px;
+}
+
+.move-button {
+  background-color: lightblue;
+  border: 2px dashed yellow;
+  box-shadow: 0 0 0 2px rgb(207, 145, 155);
+  cursor: pointer;
 }
