@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
-  background: lightpink;
   font-style: italic;
-  font-family: san-serif;
+  font-family: sans-serif;
 }
 
 body {
+  background: lightpink;
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
@@ -98,4 +98,8 @@ body {
   border: 2px dashed yellow;
   box-shadow: 0 0 0 2px rgb(207, 145, 155);
   cursor: pointer;
+}
+
+.move-button.highlight {
+  background-color: plum;
 }
